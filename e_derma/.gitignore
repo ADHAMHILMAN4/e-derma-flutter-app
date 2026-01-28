@@ -44,4 +44,29 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-serviceAccountKey.json
+**/serviceAccountKey.json
+**/serviceaccountkey.json
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+**/ios/Flutter/.last_build_id
+
+# Environment and Secrets
+.env
+**/serviceAccountKey.json
+**/serviceaccountkey.json
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Android/iOS Signing & Local Config
+*.keystore
+*.jks
+**/android/local.properties
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
