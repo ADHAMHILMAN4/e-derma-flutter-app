@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "e-derma",
+          "appId": "1:114214722974:android:3095d25c188dd008a54a8f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "e-derma",
+          "configurations": {
+            "android": "1:114214722974:android:3095d25c188dd008a54a8f",
+            "ios": "1:114214722974:ios:0a08d00d61e00fbda54a8f",
+            "web": "1:114214722974:web:db510f5a85c1b979a54a8f",
+            "windows": "1:114214722974:web:8a5710ec8cd0f381a54a8f"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": []
+    }
+  ]
+}

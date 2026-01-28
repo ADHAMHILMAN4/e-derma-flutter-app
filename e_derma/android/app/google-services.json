@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "114214722974",
+    "project_id": "e-derma",
+    "storage_bucket": "e-derma.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114214722974:android:3095d25c188dd008a54a8f",
+        "android_client_info": {
+          "package_name": "com.example.e_derma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgrSO6mXP-VFeBgy7RU7r8Memv1_X5Aeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
