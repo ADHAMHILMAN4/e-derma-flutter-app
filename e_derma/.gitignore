@@ -58,7 +58,8 @@ app.*.map.json
 **/ios/Flutter/.last_build_id
 
 # Environment and Secrets
-.env
+**/.env
+**/.env.*
 **/serviceAccountKey.json
 **/serviceaccountkey.json
 **/google-services.json
